@@ -28,8 +28,8 @@ telephoneCheck("1 555 555 5555") should return true.<br>
 telephoneCheck("1 456 789 4444") should return true.<br>
 telephoneCheck("123**&!!asdf#") should return false.<br>
 telephoneCheck("55555555") should return false.<br>
-telephoneCheck("(6054756961)") should return false<br>
-telephoneCheck("2 (757) 622-7382") should return false<br>.
+telephoneCheck("(6054756961)") should return false.<br>
+telephoneCheck("2 (757) 622-7382") should return false.<br>
 telephoneCheck("0 (757) 622-7382") should return false.<br>
 telephoneCheck("-1 (757) 622-7382") should return false<br>
 telephoneCheck("2 757 622-7382") should return false.<br>
